@@ -75,7 +75,7 @@ document.querySelector(".class2");
 // 4.1 - La propriété textContent
 /* Permet de récupérer une chaîne de caractères
 Rajouter du texte dans la div <div id="id2"></div> -> Attention au #
-*/S
+*/
 document.querySelector("#id2").textContent;
 console.log(document.querySelector("#id2").textContent);
 // Rajouter du texte dans la div <div class="class2"></div> -> Attention au .
@@ -101,7 +101,10 @@ document.querySelector("#id3").style.backgroundColor ="red";
 (mémoire vive : Random Access Memory)
 La déclaration d'une variable en dehors d'une fonction a une portée globale.
 La déclaration d'une variable dans une fonction a une portée limitée entre les {}
-Avant l'ES6 il n'existait que l'instruction var
+Avant l'ES6 il n'existait que l'instruction var pour déclarer une variable mais cela peut poser un problème de portabilité. Depuis ils ont créé let et const.
 */
 
+// 6.1 - Déclaration d'une chaine de caractères
+let cdc ="Je suis en formation";
+console.log(cdc);
 
