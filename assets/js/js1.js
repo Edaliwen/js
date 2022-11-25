@@ -70,4 +70,38 @@ document.querySelector("#id2");
 document.querySelector(".class2");
 //Créer une balise <div class="class2"></div> dans l'HTML
 
+// 4 - Récupérer des objets dans un document
+
+// 4.1 - La propriété textContent
+/* Permet de récupérer une chaîne de caractères
+Rajouter du texte dans la div <div id="id2"></div> -> Attention au #
+*/S
+document.querySelector("#id2").textContent;
+console.log(document.querySelector("#id2").textContent);
+// Rajouter du texte dans la div <div class="class2"></div> -> Attention au .
+document.querySelector(".class2").textContent;
+console.log(document.querySelector(".class2").textContent);
+
+// 4.2 - La propriété value
+// Permet de récupérer une valeur dans une balise <input>
+console.log(document.querySelector("input").value);
+
+// 5 - Ecrire dans document
+
+// 5.1 - La propriété innerHTML
+// Ecrire "BONJOUR JS" sur id="id3"
+document.querySelector("#id3").innerHTML = "BONJOUR JS";
+
+// 5.2 - La propriété style
+// Permet d'utiliser du css 
+document.querySelector("#id3").style.backgroundColor ="red";
+
+// 6 - Les variables : var let const
+/* Les différentes déclarations  de variables sont des réservations d'un espace mémoire RAM
+(mémoire vive : Random Access Memory)
+La déclaration d'une variable en dehors d'une fonction a une portée globale.
+La déclaration d'une variable dans une fonction a une portée limitée entre les {}
+Avant l'ES6 il n'existait que l'instruction var
+*/
+
 
