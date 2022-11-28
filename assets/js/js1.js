@@ -216,3 +216,14 @@ if(z > 10){
 }else{
     console.log("La variable z est inférieure à 10.");
 }
+
+/* if(1){1} else if(2){2} else {3} -> si la condition entre (1) est vraie j'exécute l'opération entre les {1} si la condition entre (2) est vraie j'exécute l'opération entre les {2} sinon j'exécute l'opération entre les {3}
+*/
+let time = 12;
+if (time < 10) {
+    console.log("Good morning");
+  } else if (time < 20) {
+    console.log("Good day");
+  } else {
+    console.log("Good evening");
+  }
