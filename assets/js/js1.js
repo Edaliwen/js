@@ -175,5 +175,31 @@ c--; // correspond à c = c - 1
 console.log(c); // Affiche 11 dans la console
 
 // 8 - Les boucles
+// les boucles dknt utilisées pour répéter des opérations de manière automatique
 
 // 8.1 - La boucle for
+/* for(let i  avec valeur de départ; la limite; incrément){
+    l'opération à effectuer;
+} 
+*/
+let i;
+for(i = 0; i <= 10; i++){
+    console.log(i);
+}
+
+// 8.2 - La boucle do ... while ...
+/* C'est une boucle assez dangereuse ca on peut tomber dans une boucle infinie si la condition de sortie n'est jamais vraie
+*/
+let j = 0;
+do{
+    j = j + 1;
+    console.log(j); // Affiche la valeur de j à chaque tour de la boucle
+}
+while(j < 5)
+
+// 9 - La concaténation
+/* Permet d'afficher des choses les unes à la suite des autres
+En js elle se fait avec le +
+*/
+let z = 5;
+console.log("J'ai " + z + " pièces.");
