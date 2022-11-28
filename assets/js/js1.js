@@ -145,3 +145,14 @@ let tabVide = [];
 // un tableau rempli
 let tabRempli = ["Emmanuel","Bacour", true, 5, 8.6];
 console.log(tabRempli);
+/* "Emmanuel", "Bacour", true, 5 et 8.6 sont des éléments (valeurs, items) qui sont placés par orde d'index (clé, key) : ici "Emmanuel" se trouve à l'index 0 et 8.6 à l'index 4. Pour aller chercher un élément, on lefait par son index
+*/
+console.log(tabRempli[0]); // Affiche Emmanuel dans la console
+console.log(tabRempli[3]); // Affiche 5 dans la console
+
+// 6.8 - Déclaration d'un tableau d'objets
+// En js le tableau d'objet se nomme JSON (JavaScript Object Notation)
+let objets1 = {
+    "prenom":"Emmanuel",
+    "nom":"Bacour"
+}
