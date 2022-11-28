@@ -156,3 +156,24 @@ let objets1 = {
     "prenom":"Emmanuel",
     "nom":"Bacour"
 }
+console.log(objets1["nom"]); // Affiche Bacour dans la console
+
+// 7 - Les opérateurs + - / * = < > <= >= ++ -- 
+// https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators
+let a = 2;
+let b = 3;
+let c = a + b;
+let d = a * b;
+console.log(c); // Affiche 5 dans la console
+console.log(d); // Affiche 6 dans la console
+console.log(c + d); // Affiche 11 dans la console
+c = c + d;
+console.log(c); // Affiche 11 dans la console
+c++; // correspond à c = c + 1
+console.log(c); // Affiche 12 dans la console
+c--; // correspond à c = c - 1
+console.log(c); // Affiche 11 dans la console
+
+// 8 - Les boucles
+
+// 8.1 - La boucle for
