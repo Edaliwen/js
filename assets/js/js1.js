@@ -175,7 +175,7 @@ c--; // correspond à c = c - 1
 console.log(c); // Affiche 11 dans la console
 
 // 8 - Les boucles
-// les boucles dknt utilisées pour répéter des opérations de manière automatique
+// les boucles sont utilisées pour répéter des opérations de manière automatique
 
 // 8.1 - La boucle for
 /* for(let i  avec valeur de départ; la limite; incrément){
