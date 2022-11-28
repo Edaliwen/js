@@ -234,7 +234,7 @@ if (time < 10) {
 
 // 10.4 - La condition switch case break
 // Déclaration de la constante papaye
-const expr = "Papayes";
+const expr = "pommes";
 switch(expr){
     case "Oranges":
         console.log("Les oranges sont à 2€50/kg.");
@@ -245,6 +245,9 @@ switch(expr){
     case "Papayes":
         console.log("Les papayes sont à 5€50/kg.");
         break;
+    case "Bananes":
+        console.log("Les bananes sont à 1€50/kg.");
+        break;
     default:
-        console.log("Les " + expr + " ne sont plus en stock.");
+        alert("Les " + expr + " ne sont plus en stock.");
 }
