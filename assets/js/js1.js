@@ -106,7 +106,35 @@ La déclaration d'une variable dans une fonction a une portée limitée entre le
 Avant l'ES6 il n'existait que l'instruction var pour déclarer une variable mais cela peut poser un problème de portabilité. Depuis ils ont créé let et const.
 */
 
-// 6.1 - Déclaration d'une chaine de caractères
+// 6.1 - Déclaration d'une chaine de caractères (type string)
 let cdc ="Je suis en formation";
 console.log(cdc);
+let cdc1 = "Nous sommes le 28 novembre 2022";
+console.log(cdc1);
 
+// 6.2 - Déclaration d'un nombre entier de type integer
+let nombre1 = 25;
+console.log(nombre1);
+
+// 6.3 - Déclaration d'un nombre décimal de type float
+let decimal = 50.2; //(Attention c'est un . pas une ,)
+console.log(decimal);
+
+// 6.4 - Déclaration d'un nombre binaire 0 ou 1 de type boolean
+// 0 vaut false et 1 vaut true
+let bool1 = false;
+let bool2 = true;
+console.log(bool1);
+console.log(bool2);
+
+// 6.5 Déclaration d'une variable existante let
+cdc = 16;
+console.log(cdc);
+
+// 6.6 Déclaration d'une constante avec const
+// La particularité d'une constante est qu'elle ne peut pas être redéclarée
+const maConstante = "ceci est une constante";
+console.log(maConstante);
+// Si j'essaye de redéclarer ma constante:
+maConstante = 15;
+console.log(maConstante); // message d'erreur, le script s'arrête
