@@ -234,7 +234,7 @@ if (time < 10) {
 
 // 10.4 - La condition switch case break
 // Déclaration de la constante papaye
-const expr = "pommes";
+const expr = "zirgouflex";
 switch(expr){
     case "Oranges":
         console.log("Les oranges sont à 2€50/kg.");
@@ -251,3 +251,15 @@ switch(expr){
     default:
         alert("Les " + expr + " ne sont plus en stock.");
 }
+
+// 11 - Les fonctions
+/* Les fonctions servent à déclarer du code qui se répète dans notre programme
+Une fonction se déclare avec l'instruction function suivie du nom de la fonction (toujours trouver un nom cohérent par rapport à la fonction)
+*/
+
+// 11.1 - Déclaration d'une fonction sans paramètres (ou arguments)
+function disAuRevoir(){
+    alert("Au revoir !");
+}
+// Exécution de la fonction
+disAuRevoir();
