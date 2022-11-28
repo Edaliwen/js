@@ -263,3 +263,24 @@ function disAuRevoir(){
 }
 // Exécution de la fonction
 disAuRevoir();
+
+// 11.2 - Déclaration d'une fonction avec des paramètres (ou arguments)
+// Fonction avec 1 paramètre
+function disBonjourAvecLePrenom(prenom){
+    console.log("Bonjour " + prenom + " !");
+}
+disBonjourAvecLePrenom("Zelda");
+
+// Fonction avec 2 paramètres
+function calculSomme(a, b){
+    let selection2 = document.querySelector("#resultat");
+
+    selection2.innerHTML = "Si a = " + a + " et b = " + b + ". Alors a + b est égal à " + (a + b) +".";
+    // console.log(a + b);
+}
+calculSomme(256, 92);
+
+// 12 - Les écouteurs d'événements
+// On utilise la méthode addEventListener native js pour ajouter un écouteur d'événement
+let selectBouton = document.querySelector("#bt")
+selectBouton.addEventListener("click", clickButtonHandler);
