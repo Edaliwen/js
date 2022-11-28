@@ -203,3 +203,16 @@ En js elle se fait avec le +
 */
 let z = 5;
 console.log("J'ai " + z + " pièces.");
+
+// 10 - Les conditions if, if else, if elseif else, switch case break
+// if(){} -> si la condition entre () est vraie j'exécute l'opération entre les {}
+if(z < 10){
+    console.log("La variable z est bien inférieure à 10.");
+}
+/* if(){1} else {2} -> si la condition entre () est vraie j'exécute l'opération entre les {1} sinon j'éxécute l'opération entre les {2}
+*/
+if(z > 10){
+    console.log("La variable z est bien supérieure à 10.");
+}else{
+    console.log("La variable z est inférieure à 10.");
+}
