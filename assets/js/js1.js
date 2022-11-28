@@ -269,7 +269,7 @@ disAuRevoir();
 function disBonjourAvecLePrenom(prenom){
     console.log("Bonjour " + prenom + " !");
 }
-disBonjourAvecLePrenom("Zelda");
+disBonjourAvecLePrenom("Stéphanie");
 
 // Fonction avec 2 paramètres
 function calculSomme(a, b){
@@ -281,6 +281,22 @@ function calculSomme(a, b){
 calculSomme(256, 92);
 
 // 12 - Les écouteurs d'événements
-// On utilise la méthode addEventListener native js pour ajouter un écouteur d'événement
+/* On utilise la méthode addEventListener native js pour ajouter un écouteur d'événement
+Déclaration de la variable sectBouton qui correspond au sélecteur id="bt" sur notre bouton
+*/
 let selectBouton = document.querySelector("#bt")
+/* Déclaration d'un écouteur d'événment associé au sélecteur qui va écouter le click du bouton et déclencher la fonction clickButtonHandler 
+*/
 selectBouton.addEventListener("click", clickButtonHandler);
+function clickButtonHandler(){
+    alert("Bravo ! Vous avez validé !")
+}
+
+// Aide mémoire
+/*  || : ou
+    && : et
+    !  : pas ou not
+    == permet de vérifier une condition d'égalité dans un if
+    === permet de vérifier une condition d'égalité dans un if (en valeur et en type)
+    !== : différent 
+*/
