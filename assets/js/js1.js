@@ -205,10 +205,13 @@ let z = 5;
 console.log("J'ai " + z + " pièces.");
 
 // 10 - Les conditions if, if else, if elseif else, switch case break
+// 10.1 - La condition if 
 // if(){} -> si la condition entre () est vraie j'exécute l'opération entre les {}
 if(z < 10){
     console.log("La variable z est bien inférieure à 10.");
 }
+
+// 10.2 - La condition if else
 /* if(){1} else {2} -> si la condition entre () est vraie j'exécute l'opération entre les {1} sinon j'éxécute l'opération entre les {2}
 */
 if(z > 10){
@@ -217,6 +220,7 @@ if(z > 10){
     console.log("La variable z est inférieure à 10.");
 }
 
+// 10.3 - La condition if else if else
 /* if(1){1} else if(2){2} else {3} -> si la condition entre (1) est vraie j'exécute l'opération entre les {1} si la condition entre (2) est vraie j'exécute l'opération entre les {2} sinon j'exécute l'opération entre les {3}
 */
 let time = 12;
@@ -227,3 +231,20 @@ if (time < 10) {
   } else {
     console.log("Good evening");
   }
+
+// 10.4 - La condition switch case break
+// Déclaration de la constante papaye
+const expr = "Papayes";
+switch(expr){
+    case "Oranges":
+        console.log("Les oranges sont à 2€50/kg.");
+        break;
+    case "Mangues":
+        console.log("Les mangues sont à 4€50/kg.");
+        break;
+    case "Papayes":
+        console.log("Les papayes sont à 5€50/kg.");
+        break;
+    default:
+        console.log("Les " + expr + " ne sont plus en stock.");
+}
