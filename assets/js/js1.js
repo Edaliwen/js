@@ -127,14 +127,21 @@ let bool2 = true;
 console.log(bool1);
 console.log(bool2);
 
-// 6.5 Déclaration d'une variable existante let
+// 6.5 - Déclaration d'une variable existante let
 cdc = 16;
 console.log(cdc);
 
-// 6.6 Déclaration d'une constante avec const
+// 6.6 - Déclaration d'une constante avec const
 // La particularité d'une constante est qu'elle ne peut pas être redéclarée
 const maConstante = "ceci est une constante";
 console.log(maConstante);
 // Si j'essaye de redéclarer ma constante:
-maConstante = 15;
-console.log(maConstante); // message d'erreur, le script s'arrête
+// maConstante = 15;
+// console.log(maConstante); // message d'erreur, le script s'arrête
+
+// 6.7 - Déclaration d'un tableau (type array)
+// Un tableau vide
+let tabVide = [];
+// un tableau rempli
+let tabRempli = ["Emmanuel","Bacour", true, 5, 8.6];
+console.log(tabRempli);
