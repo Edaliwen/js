@@ -1,12 +1,13 @@
-let firstName
+let firstName = "Amandine"
 let selectBouton = document.querySelector("#bt")
 selectBouton.addEventListener("click", clickButtonHandler);
 
+
 function clickButtonHandler(){
     firstName = document.querySelector("#firstName").value
-    disBonjourAvecLePrenom(firstName)
+    displayFirstName(firstName)
 }
 
-function disBonjourAvecLePrenom(firstName){
-    alert("Bonjour " + firstName + " !");
+function displayFirstName(firstName){
+    document.querySelector("#displayFirstName").innerHTML = "Bonjour " + firstName + " !"
 }
