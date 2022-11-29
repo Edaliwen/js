@@ -40,3 +40,16 @@ Partir de 0 pour le résultat
 Augmenter et diminuer avec un pas de 1
 
 Afficher le résultat en dynamique au dessus des boutons 
+
+
+Exercice 6 : devinerLeNombre
+
+Afficher le titre du jeu : Deviner le nombre
+Afficher "Deviner un nombre entre 1 et 100"
+1 - au départ on a un bouton (bleu) en dessous "Cliquer pour jouer"
+2 - une fois qu'on a cliqué sur le bouton, on le fait disparaître et on le remplace par un champ qui permet d'écrire notre nombre et un bouton en dessous qui permet de valider ce nombre
+3 - si le nombre est trop petit, indiquer au dessus du champ "c'est plus !!"
+4 - si le nombre est trop grand, indiquer au dessus du champ "c'est moins !!"
+5 - si le nombre correspond au nombre choisi au hasard on affiche "c'est gagné !!"
+6 - faire disparaître le champ et le bouton
+7 - proposer un bouton rejouer
