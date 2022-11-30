@@ -55,4 +55,5 @@ En partant du tableau suivant :
  - lion
  - perpendiculaire
 
-Quand on clique sur un bouton "Cliquer ici !" cela nous trouve un mot au hasard dans le tableau et l'affiche à l'écran
+[ ] Quand on clique sur un bouton "Cliquer ici !" cela nous trouve un mot au hasard dans le tableau et l'affiche à l'écran
+[ ] Le mot choisi au hasard est sauvegardé et on affiche à la place un ? pour chaque lettre du mot
