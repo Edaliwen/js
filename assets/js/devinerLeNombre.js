@@ -26,9 +26,7 @@ function guess(){
         alert("Bravo c'est gagné !!")
     } else {
         alert("On a dit un nombre entre 1 et 100 !!")
-    }
-
-    
+    }    
 }
 
 function displayMessage(message){

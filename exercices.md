@@ -45,11 +45,47 @@ Afficher le résultat en dynamique au dessus des boutons
 Exercice 6 : devinerLeNombre
 
 Afficher le titre du jeu : Deviner le nombre
+
 Afficher "Deviner un nombre entre 1 et 100"
+
 1 - au départ on a un bouton (bleu) en dessous "Cliquer pour jouer"
-2 - une fois qu'on a cliqué sur le bouton, on le fait disparaître et on le remplace par un champ qui permet d'écrire notre nombre et un bouton en dessous qui permet de valider ce nombre
+
+2 - une fois qu'on a cliqué sur le bouton, on le fait disparaître et on le remplace par un champ qui permet d'écrire notre nombre et un 
+bouton en dessous qui permet de valider ce nombre
+
 3 - si le nombre est trop petit, indiquer au dessus du champ "c'est plus !!"
+
 4 - si le nombre est trop grand, indiquer au dessus du champ "c'est moins !!"
+
 5 - si le nombre correspond au nombre choisi au hasard on affiche "c'est gagné !!"
+
 6 - faire disparaître le champ et le bouton
+
 7 - proposer un bouton rejouer
+
+
+Exercice 7 : calculatrice (optionnel)
+
+
+Exercice 8 : survolImage
+
+Afficher une image et lui rajouter une bordure rouge de 3px au survol
+
+
+Exercice 9 : motAleatoire
+
+En partant du tableau suivant :
+
+ - chocolat
+
+ - pyramide 
+
+ - automobile
+
+ - synonyme 
+
+ - lion
+
+ - perpendiculaire
+
+quand on clique sur un bouton "Cliquer ici !" cela nous trouve un mot au hasard dans le tableau et l'affiche à l'écran
