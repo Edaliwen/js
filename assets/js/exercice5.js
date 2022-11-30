@@ -1,6 +1,4 @@
 let result = 0
-let add = document.querySelector("#add")
-let subtract = document.querySelector("#sub")
 
 let selectButtonAdd = document.querySelector("#add")
 let selectButtonSubtract = document.querySelector("#sub")
