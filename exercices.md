@@ -2,7 +2,7 @@
 
 Définir une variable et l'afficher.
 C'est un entier de valeur 6.
-Afficher dans une boïte d'alerte.
+Afficher dans une boîte d'alerte.
 
 ## Exercice 2
 
@@ -21,11 +21,12 @@ Demander le nom, le prénom et la ville et afficher le résultat de l'ensemble d
 ## Exercice 5
 
 Créer 2 boutons :
-    - augmenter (bleu)
-    - diminuer (rouge)
-Partir de 0 pour le résultat
-Augmenter et diminuer avec un pas de 1
-Afficher le résultat en dynamique au dessus des boutons 
+- augmenter (bleu)
+- diminuer (rouge)
+
+- Partir de 0 pour le résultat
+- Augmenter et diminuer avec un pas de 1
+- Afficher le résultat en dynamique au dessus des boutons 
 
 ## Exercice 6 : devinerLeNombre
 
@@ -59,5 +60,5 @@ En partant du tableau suivant :
  - lion
  - perpendiculaire
 
-[ ] Quand on clique sur un bouton "Cliquer ici !" cela nous trouve un mot au hasard dans le tableau et l'affiche à l'écran
-[ ] Le mot choisi au hasard est sauvegardé et on affiche à la place un ? pour chaque lettre du mot
+- [ ] Quand on clique sur un bouton "Cliquer ici !" cela nous trouve un mot au hasard dans le tableau et l'affiche à l'écran
+- [ ] Le mot choisi au hasard est sauvegardé et on affiche à la place un ? pour chaque lettre du mot
