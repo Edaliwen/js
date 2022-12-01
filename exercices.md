@@ -45,6 +45,8 @@ Afficher "Deviner un nombre entre 1 et 100"
 
 ## Exercice 8 : survolImage
 
+![logo js](assets/images/imgJs.png)
+
 Afficher une image et lui rajouter une bordure rouge de 3px au survol
 
 ## Exercice 9 : motAleatoire
