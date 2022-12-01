@@ -41,6 +41,8 @@ Afficher "Deviner un nombre entre 1 et 100"
 
 ## Exercice 7 : calculatrice (optionnel)
 
+![modèle de calculatrice](assets/images/calculatrice.png)
+
 ## Exercice 8 : survolImage
 
 Afficher une image et lui rajouter une bordure rouge de 3px au survol
