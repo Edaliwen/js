@@ -33,7 +33,7 @@ Créer 2 boutons :
 Afficher le titre du jeu : Deviner le nombre
 Afficher "Deviner un nombre entre 1 et 100"
  - [x] au départ on a un bouton (bleu) "Cliquer pour jouer"
- - [ ] une fois qu'on a cliqué sur le bouton, on le fait disparaître et on le remplace par un champ qui permet d'écrire notre nombre et un bouton en dessous qui permet de valider ce nombre
+ - [x] une fois qu'on a cliqué sur le bouton, on le fait disparaître et on le remplace par un champ qui permet d'écrire notre nombre et un bouton en dessous qui permet de valider ce nombre
  - [x] si le nombre est trop petit, indiquer au dessus du champ "c'est plus !!"
  - [x] si le nombre est trop grand, indiquer au dessus du champ "c'est moins !!"
  - [x] si le nombre correspond au nombre choisi au hasard on affiche "c'est gagné !!"
