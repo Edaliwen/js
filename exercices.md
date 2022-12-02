@@ -62,3 +62,29 @@ En partant du tableau suivant :
 
 - [ ] Quand on clique sur un bouton "Cliquer ici !" cela nous trouve un mot au hasard dans le tableau et l'affiche à l'écran
 - [ ] Le mot choisi au hasard est sauvegardé et on affiche à la place un ? pour chaque lettre du mot
+
+## Exercice 10 : Le jeu du pendu
+
+[Règle du jeu :] (https://fr.wikipedia.org/wiki/Pendu_(jeu))
+
+### 1. Réfléchir à l'html
+
+- [ ] titre
+- [ ] règles
+- [ ] balises pour mettre les ? pour chaque lettre du mot
+- [ ] balise label (==bootstrap form-group==)
+- [ ] balise input (==bootstrap form-control==)
+- [ ] balise button (==bootstrap btn==)
+- [ ] attention, ne pas oublier de mettre un sélecteur sur chaque balise
+
+### 2. Réfléchir au js
+
+- [ ] déclarer un tableau avec des mots
+- [ ] mélanger ces mots et choisir un mot au hasard que l'on garde de côté (==fonction==)
+- [ ] afficher l'interface avec le nombre de cases ? correspondant au nombre de lettres du mot à trouver (==fonction==)
+- [ ] vérification (==fonction==) :
+    - [ ] vérifier si la lettre entrée par l'utilisateur correspond à une des lettres du mot (==fonction==) :
+        - [ ] si oui afficher la lettre à la place du point d'interrogation au bon endroit (==fonction==)
+        - [ ] sinon afficher un message d'erreur (==alert()==) avec le nombre d'erreur restant (==constante max d'erreurs==)
+    - [ ] gérer le message de fin de jeu (gagnant/perdant) (==alert()==)
+    - [ ] gérer la relance du jeu (==fonction==)
