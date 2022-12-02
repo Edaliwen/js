@@ -72,19 +72,19 @@ En partant du tableau suivant :
 - [ ] titre
 - [ ] règles
 - [ ] balises pour mettre les ? pour chaque lettre du mot
-- [ ] balise label (==bootstrap form-group==)
-- [ ] balise input (==bootstrap form-control==)
-- [ ] balise button (==bootstrap btn==)
+- [ ] balise label (*bootstrap form-group*)
+- [ ] balise input (*bootstrap form-control*)
+- [ ] balise button (*bootstrap btn*)
 - [ ] attention, ne pas oublier de mettre un sélecteur sur chaque balise
 
 ### 2. Réfléchir au js
 
 - [ ] déclarer un tableau avec des mots
-- [ ] mélanger ces mots et choisir un mot au hasard que l'on garde de côté (==fonction==)
-- [ ] afficher l'interface avec le nombre de cases ? correspondant au nombre de lettres du mot à trouver (==fonction==)
-- [ ] vérification (==fonction==) :
-    - [ ] vérifier si la lettre entrée par l'utilisateur correspond à une des lettres du mot (==fonction==) :
-        - [ ] si oui afficher la lettre à la place du point d'interrogation au bon endroit (==fonction==)
-        - [ ] sinon afficher un message d'erreur (==alert()==) avec le nombre d'erreur restant (==constante max d'erreurs==)
-    - [ ] gérer le message de fin de jeu (gagnant/perdant) (==alert()==)
-    - [ ] gérer la relance du jeu (==fonction==)
+- [ ] mélanger ces mots et choisir un mot au hasard que l'on garde de côté (*fonction*)
+- [ ] afficher l'interface avec le nombre de cases ? correspondant au nombre de lettres du mot à trouver (*fonction*)
+- [ ] vérification (*fonction*) :
+    - [ ] vérifier si la lettre entrée par l'utilisateur correspond à une des lettres du mot (*fonction*) :
+        - [ ] si oui afficher la lettre à la place du point d'interrogation au bon endroit (*fonction*)
+        - [ ] sinon afficher un message d'erreur (*alert()*) avec le nombre d'erreur restant (*constante max d'erreurs*)
+    - [ ] gérer le message de fin de jeu (gagnant/perdant) (*alert()*)
+    - [ ] gérer la relance du jeu (*fonction*)
