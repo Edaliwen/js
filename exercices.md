@@ -65,7 +65,7 @@ En partant du tableau suivant :
 
 ## Exercice 10 : Le jeu du pendu
 
-[Règle du jeu :] (https://fr.wikipedia.org/wiki/Pendu_(jeu))
+Règle du jeu : https://fr.wikipedia.org/wiki/Pendu_(jeu)
 
 ### 1. Réfléchir à l'html
 
