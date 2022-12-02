@@ -21,12 +21,12 @@ Demander le nom, le prénom et la ville et afficher le résultat de l'ensemble d
 ## Exercice 5
 
 Créer 2 boutons : 
-1.augmenter (bleu)
-2.diminuer (rouge)
+    1. augmenter (bleu)
+    2. diminuer (rouge)
 
-[x] Partir de 0 pour le résultat
-[x] Augmenter et diminuer avec un pas de 1
-[x] Afficher le résultat en dynamique au dessus des boutons 
+- [x] Partir de 0 pour le résultat
+- [x] Augmenter et diminuer avec un pas de 1
+- [x] Afficher le résultat en dynamique au dessus des boutons 
 
 ## Exercice 6 : devinerLeNombre
 
