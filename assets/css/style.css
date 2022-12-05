@@ -1,0 +1,14 @@
+body{
+    background-color:rgb(34, 53, 53);
+    color: whitesmoke;
+}
+
+#bt{
+    background-color: teal;
+    color: whitesmoke;
+
+}
+.case-lettre{
+    background-color: teal;
+    padding: 3px 5px;
+}
